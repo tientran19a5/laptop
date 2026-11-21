@@ -1,12 +1,12 @@
 {
+  "github.copilot.editor.enableAutoCompletions": false,
   "editor.lineHeight": 2.5,
-  "editor.fontFamily": "Cascadia Code",
-  "editor.inlineSuggest.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "ComicShannsMono Nerd Font, Cascadia Code",
   "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.cursorStyleInactive": "none",
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "ComicShannsMono Nerd Font, Cascadia Code",
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "editor.wrapOnEscapedLineFeeds": true,
@@ -31,7 +31,7 @@
   "explorer.decorations.badges": false,
   "git.decorations.enabled": false,
   "vscode_custom_css.imports": [
-    "file:///C:/GitHub/github_projects/vscode-configs/custom.css"
+    "file:///C:/Softwares/custom-vscode/custom.css"
   ],
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": false,
@@ -65,9 +65,31 @@
   "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
   "vsicons.dontShowNewVersionMessage": true,
   "git.enableSmartCommit": true,
-  "geminicodeassist.project": "lively-gravity-500414-n2",
-  "claudeCode.preferredLocation": "panel",
-  "claudeCode.environmentVariables": [],
-  "claudeCode.disableLoginPrompt": true,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+  "chat.disableAIFeatures": true,
+  "redhat.telemetry.enabled": true,
+  "svelte.enable-ts-plugin": true,
+  "notebook.insertFinalNewline": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "security.workspace.trust.untrustedFiles": "open",
+  "json.schemaDownload.trustedDomains": {
+    "https://aka.ms": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://spec.openapis.org/": true,
+    "https://www.schemastore.org/": true
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false
 }
